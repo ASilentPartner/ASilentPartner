@@ -1,5 +1,5 @@
-<svg viewBox="0 0 2560 1440" width="2560" height="1440" xmlns="http://www.w3.org/2000/svg">
-  <rect width="2560" height="1440" fill="#fcfcfd" />
+<svg viewBox="380 380 1800 680" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <rect x="380" y="380" width="1800" height="680" fill="#fcfcfd" />
 
   <!-- Prominent GitHub Official Watermark (Centered at X=1280, Y=720) -->
   <g transform="translate(1280, 720) scale(18)" opacity="0.14">
@@ -42,7 +42,7 @@
 
     <line x1="426" y1="30" x2="426" y2="110" stroke="#e5e7eb" stroke-width="1.5" />
 
-    <!-- Identity & Email -->
+    
     <g transform="translate(450, 48)">
       <text x="0" y="20" fill="#0f0f0f" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="900" letter-spacing="-0.5px">ASP</text>
       <text x="74" y="8" fill="#24292f" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" letter-spacing="1.5px">DEVELOPER</text>
