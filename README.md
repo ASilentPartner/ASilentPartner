@@ -1,3 +1,3 @@
 <div align="center">
-  <img src="./header.svg" width="100%" alt="ASP // CODE" />
+  <img src="./header" width="100%" alt="ASP // CODE" />
 </div>
