@@ -1,73 +1,105 @@
-<svg viewBox="380 380 1800 680" width="100%" xmlns="http://www.w3.org/2000/svg">
-  <rect x="380" y="380" width="1800" height="680" fill="#fcfcfd" />
+<svg viewBox="0 0 2560 1440" width="2560" height="1440" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clean Studio Base -->
+  <rect width="2560" height="1440" fill="#fcfcfd" />
 
-  <!-- Prominent GitHub Official Watermark (Centered at X=1280, Y=720) -->
-  <g transform="translate(1280, 720) scale(18)" opacity="0.14">
+  <!-- GitHub Background Watermark -->
+  <g transform="translate(1280, 720) scale(18)" opacity="0.10">
     <g transform="translate(-12, -12)">
-      <path fill="#24292f" fill-rule="evenodd" clip-rule="evenodd" d="M 12 2 C 6.477 2 2 6.484 2 12.017 c 0 4.425 2.865 8.18 6.839 9.504 c 0.5 0.092 0.682 -0.217 0.682 -0.483 c 0 -0.237 -0.008 -0.868 -0.013 -1.703 c -2.782 0.605 -3.369 -1.343 -3.369 -1.343 c -0.454 -1.158 -1.11 -1.466 -1.11 -1.466 c -0.908 -0.62 0.069 -0.608 0.069 -0.608 c 1.003 0.07 1.53 1.032 1.53 1.032 c 0.892 1.53 2.341 1.088 2.91 0.832 c 0.092 -0.647 0.35 -1.088 0.636 -1.338 c -2.22 -0.253 -4.555 -1.113 -4.555 -4.951 c 0 -1.093 0.39 -1.988 1.029 -2.688 c -0.103 -0.253 -0.446 -1.272 0.098 -2.65 c 0 0 0.84 -0.27 2.75 1.026 A 9.564 9.564 0 0 1 12 6.844 c 0.85 0.004 1.705 0.115 2.504 0.337 c 1.909 -1.296 2.747 -1.027 2.747 -1.027 c 0.546 1.379 0.202 2.398 0.1 2.651 c 0.64 0.7 1.028 1.595 1.028 2.688 c 0 3.848 -2.339 4.695 -4.566 4.943 c 0.359 0.309 0.678 0.92 0.678 1.855 c 0 1.338 -0.012 2.419 -0.012 2.747 c 0 0.268 0.18 0.58 0.688 0.482 A 10.019 10.019 0 0 0 22 12.017 C 22 6.484 17.522 2 12 2 Z" />
+      <path fill="#24292f" fill-rule="evenodd" d="M 12 2 C 6.477 2 2 6.484 2 12.017 c 0 4.425 2.865 8.18 6.839 9.504 c 0.5 0.092 0.682 -0.217 0.682 -0.483 c 0 -0.237 -0.008 -0.868 -0.013 -1.703 c -2.782 0.605 -3.369 -1.343 -3.369 -1.343 c -0.454 -1.158 -1.11 -1.466 -1.11 -1.466 c -0.908 -0.62 0.069 -0.608 0.069 -0.608 c 1.003 0.07 1.53 1.032 1.53 1.032 c 0.892 1.53 2.341 1.088 2.91 0.832 c 0.092 -0.647 0.35 -1.088 0.636 -1.338 c -2.22 -0.253 -4.555 -1.113 -4.555 -4.951 c 0 -1.093 0.39 -1.988 1.029 -2.688 c -0.103 -0.253 -0.446 -1.272 0.098 -2.65 c 0 0 0.84 -0.27 2.75 1.026 A 9.564 9.564 0 0 1 12 6.844 c 0.85 0.004 1.705 0.115 2.504 0.337 c 1.909 -1.296 2.747 -1.027 2.747 -1.027 c 0.546 1.379 0.202 2.398 0.1 2.651 c 0.64 0.7 1.028 1.595 1.028 2.688 c 0 3.848 -2.339 4.695 -4.566 4.943 c 0.359 0.309 0.678 0.92 0.678 1.855 c 0 1.338 -0.012 2.419 -0.012 2.747 c 0 0.268 0.18 0.58 0.688 0.482 A 10.019 10.019 0 0 0 22 12.017 C 22 6.484 17.522 2 12 2 Z" />
     </g>
   </g>
 
-  <!-- Architectural Baseline Across the Safe Zone -->
-  <line x1="560" y1="720" x2="2000" y2="720" stroke="#ebecef" stroke-width="2" />
+  <!-- Architectural Baseline -->
+  <line x1="400" y1="720" x2="2160" y2="720" stroke="#ebecef" stroke-width="2" />
 
-  <!-- Main Unified Pill Capsule -->
-  <g transform="translate(760, 650)">
-    <rect x="0" y="8" width="1040" height="140" rx="70" fill="#000000" opacity="0.08" />
-    <rect x="0" y="0" width="1040" height="140" rx="70" fill="#ffffff" stroke="#e2e4e9" stroke-width="2" />
+  <!-- Main Unified Capsule (ORCID + Google Scholar only) -->
+  <g transform="translate(560, 650)">
+    
+    <!-- Flat Shadow Plate -->
+    <rect x="0" y="8" width="1440" height="140" rx="70" fill="#000000" opacity="0.06" />
 
-    <!-- Discs: A, S, P + Official GitHub Disc -->
+    <!-- Capsule Surface -->
+    <rect x="0" y="0" width="1440" height="140" rx="70" fill="#ffffff" stroke="#e2e4e9" stroke-width="2" />
+
+    <!-- Left Section: 4 Signature Discs (A, S, P, GitHub Mark) -->
+    <!-- Disc A -->
     <g transform="translate(36, 28)">
       <circle cx="42" cy="42" r="42" fill="#0f0f0f" stroke="#27272a" stroke-width="2" />
       <text x="42" y="42" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900" text-anchor="middle" dominant-baseline="central">A</text>
     </g>
+
+    <!-- Disc S -->
     <g transform="translate(130, 28)">
       <circle cx="42" cy="42" r="42" fill="#0f0f0f" stroke="#27272a" stroke-width="2" />
       <text x="42" y="42" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900" text-anchor="middle" dominant-baseline="central">S</text>
     </g>
+
+    <!-- Disc P -->
     <g transform="translate(224, 28)">
       <circle cx="42" cy="42" r="42" fill="#0f0f0f" stroke="#27272a" stroke-width="2" />
       <text x="42" y="42" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900" text-anchor="middle" dominant-baseline="central">P</text>
     </g>
 
-    <!-- Disc 4: Official GitHub Disc -->
+    <!-- Disc GitHub -->
     <g transform="translate(318, 28)">
       <circle cx="42" cy="42" r="42" fill="#24292f" stroke="#24292f" stroke-width="2" />
       <g transform="translate(42, 42) scale(2.25)">
         <g transform="translate(-12, -12)">
-          <path fill="#ffffff" fill-rule="evenodd" clip-rule="evenodd" d="M 12 2 C 6.477 2 2 6.484 2 12.017 c 0 4.425 2.865 8.18 6.839 9.504 c 0.5 0.092 0.682 -0.217 0.682 -0.483 c 0 -0.237 -0.008 -0.868 -0.013 -1.703 c -2.782 0.605 -3.369 -1.343 -3.369 -1.343 c -0.454 -1.158 -1.11 -1.466 -1.11 -1.466 c -0.908 -0.62 0.069 -0.608 0.069 -0.608 c 1.003 0.07 1.53 1.032 1.53 1.032 c 0.892 1.53 2.341 1.088 2.91 0.832 c 0.092 -0.647 0.35 -1.088 0.636 -1.338 c -2.22 -0.253 -4.555 -1.113 -4.555 -4.951 c 0 -1.093 0.39 -1.988 1.029 -2.688 c -0.103 -0.253 -0.446 -1.272 0.098 -2.65 c 0 0 0.84 -0.27 2.75 1.026 A 9.564 9.564 0 0 1 12 6.844 c 0.85 0.004 1.705 0.115 2.504 0.337 c 1.909 -1.296 2.747 -1.027 2.747 -1.027 c 0.546 1.379 0.202 2.398 0.1 2.651 c 0.64 0.7 1.028 1.595 1.028 2.688 c 0 3.848 -2.339 4.695 -4.566 4.943 c 0.359 0.309 0.678 0.92 0.678 1.855 c 0 1.338 -0.012 2.419 -0.012 2.747 c 0 0.268 0.18 0.58 0.688 0.482 A 10.019 10.019 0 0 0 22 12.017 C 22 6.484 17.522 2 12 2 Z" />
+          <path fill="#ffffff" fill-rule="evenodd" d="M 12 2 C 6.477 2 2 6.484 2 12.017 c 0 4.425 2.865 8.18 6.839 9.504 c 0.5 0.092 0.682 -0.217 0.682 -0.483 c 0 -0.237 -0.008 -0.868 -0.013 -1.703 c -2.782 0.605 -3.369 -1.343 -3.369 -1.343 c -0.454 -1.158 -1.11 -1.466 -1.11 -1.466 c -0.908 -0.62 0.069 -0.608 0.069 -0.608 c 1.003 0.07 1.53 1.032 1.53 1.032 c 0.892 1.53 2.341 1.088 2.91 0.832 c 0.092 -0.647 0.35 -1.088 0.636 -1.338 c -2.22 -0.253 -4.555 -1.113 -4.555 -4.951 c 0 -1.093 0.39 -1.988 1.029 -2.688 c -0.103 -0.253 -0.446 -1.272 0.098 -2.65 c 0 0 0.84 -0.27 2.75 1.026 A 9.564 9.564 0 0 1 12 6.844 c 0.85 0.004 1.705 0.115 2.504 0.337 c 1.909 -1.296 2.747 -1.027 2.747 -1.027 c 0.546 1.379 0.202 2.398 0.1 2.651 c 0.64 0.7 1.028 1.595 1.028 2.688 c 0 3.848 -2.339 4.695 -4.566 4.943 c 0.359 0.309 0.678 0.92 0.678 1.855 c 0 1.338 -0.012 2.419 -0.012 2.747 c 0 0.268 0.18 0.58 0.688 0.482 A 10.019 10.019 0 0 0 22 12.017 C 22 6.484 17.522 2 12 2 Z" />
         </g>
       </g>
     </g>
 
+    <!-- Divider -->
     <line x1="426" y1="30" x2="426" y2="110" stroke="#e5e7eb" stroke-width="1.5" />
 
-    
-    <g transform="translate(450, 48)">
-      <text x="0" y="20" fill="#0f0f0f" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="900" letter-spacing="-0.5px">ASP</text>
-      <text x="74" y="8" fill="#24292f" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" letter-spacing="1.5px">DEVELOPER</text>
-      <g transform="translate(0, 36)">
+    <!-- Middle Section: DEVELOPER & RESEARCHER on Top + ASP + Email -->
+    <g transform="translate(450, 42)">
+      <text x="0" y="0" fill="#24292f" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="900" letter-spacing="1.5px">DEVELOPER &amp; RESEARCHER</text>
+      <text x="0" y="28" fill="#0f0f0f" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="900" letter-spacing="-0.5px">ASP</text>
+      <g transform="translate(0, 42)">
         <rect x="0" y="2" width="16" height="11" rx="2" fill="none" stroke="#6b7280" stroke-width="1.5" />
         <polyline points="1,3 8,8 15,3" fill="none" stroke="#6b7280" stroke-width="1.5" />
         <text x="24" y="12" fill="#4b5563" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="0.5px">asp@eventdeparture.com</text>
       </g>
     </g>
 
-    <!-- Right Profile Pill -->
-    <g transform="translate(730, 36)">
-      <rect x="0" y="0" width="274" height="68" rx="34" fill="#f8fafc" stroke="#e2e4e9" stroke-width="1.5" />
-      <g transform="translate(14, 14)">
-        <circle cx="20" cy="20" r="20" fill="#24292f" />
-        <g transform="translate(20, 20) scale(1.05)">
-          <g transform="translate(-12, -12)">
-            <path fill="#ffffff" fill-rule="evenodd" clip-rule="evenodd" d="M 12 2 C 6.477 2 2 6.484 2 12.017 c 0 4.425 2.865 8.18 6.839 9.504 c 0.5 0.092 0.682 -0.217 0.682 -0.483 c 0 -0.237 -0.008 -0.868 -0.013 -1.703 c -2.782 0.605 -3.369 -1.343 -3.369 -1.343 c -0.454 -1.158 -1.11 -1.466 -1.11 -1.466 c -0.908 -0.62 0.069 -0.608 0.069 -0.608 c 1.003 0.07 1.53 1.032 1.53 1.032 c 0.892 1.53 2.341 1.088 2.91 0.832 c 0.092 -0.647 0.35 -1.088 0.636 -1.338 c -2.22 -0.253 -4.555 -1.113 -4.555 -4.951 c 0 -1.093 0.39 -1.988 1.029 -2.688 c -0.103 -0.253 -0.446 -1.272 0.098 -2.65 c 0 0 0.84 -0.27 2.75 1.026 A 9.564 9.564 0 0 1 12 6.844 c 0.85 0.004 1.705 0.115 2.504 0.337 c 1.909 -1.296 2.747 -1.027 2.747 -1.027 c 0.546 1.379 0.202 2.398 0.1 2.651 c 0.64 0.7 1.028 1.595 1.028 2.688 c 0 3.848 -2.339 4.695 -4.566 4.943 c 0.359 0.309 0.678 0.92 0.678 1.855 c 0 1.338 -0.012 2.419 -0.012 2.747 c 0 0.268 0.18 0.58 0.688 0.482 A 10.019 10.019 0 0 0 22 12.017 C 22 6.484 17.522 2 12 2 Z" />
-          </g>
+    <!-- Right Cluster: ORCID and Google Scholar Badges -->
+    <g transform="translate(800, 36)">
+      
+      <!-- Pill 1: ORCID iD -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="290" height="68" rx="34" fill="#f8fafc" stroke="#e2e4e9" stroke-width="1.5" />
+        <g transform="translate(12, 12)">
+          <circle cx="22" cy="22" r="22" fill="#A6CE39" />
+          <circle cx="15" cy="16" r="1.8" fill="#ffffff" />
+          <rect x="13.5" y="20" width="3" height="10" rx="0.8" fill="#ffffff" />
+          <path d="M 20 14 L 25 14 C 29.5 14 32.5 16.5 32.5 22 C 32.5 27.5 29.5 30 25 30 L 20 30 Z M 23 17 L 23 27 L 25 27 C 27.5 27 29.5 25.5 29.5 22 C 29.5 18.5 27.5 17 25 17 Z" fill="#ffffff" />
+        </g>
+        <g transform="translate(64, 22)">
+          <text x="0" y="8" fill="#6b7280" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" letter-spacing="1.5px">ORCID iD</text>
+          <text x="0" y="28" fill="#0f0f0f" font-family="'SF Mono', 'Courier New', Courier, monospace, Arial" font-size="12" font-weight="700" letter-spacing="0.5px">0009-0006-0092-5793</text>
         </g>
       </g>
-      <g transform="translate(64, 22)">
-        <text x="0" y="8" fill="#6b7280" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" letter-spacing="1.5px">GITHUB</text>
-        <text x="0" y="28" fill="#0f0f0f" font-family="'SF Mono', 'Courier New', Courier, monospace, Arial" font-size="13" font-weight="700" letter-spacing="0.5px">@ASilentPartner</text>
+
+      <!-- Pill 2: Google Scholar -->
+      <g transform="translate(306, 0)">
+        <rect x="0" y="0" width="310" height="68" rx="34" fill="#f8fafc" stroke="#e2e4e9" stroke-width="1.5" />
+        <g transform="translate(12, 12)">
+          <circle cx="22" cy="22" r="22" fill="#4285F4" />
+          <g transform="translate(22, 22) scale(1.25)">
+            <g transform="translate(-12, -12)">
+              <path fill="#ffffff" d="M 12 5 L 2 9.5 L 12 14 L 20 10.4 V 16 H 21.5 V 9.5 L 12 5 Z M 5.5 12.3 V 15.8 C 5.5 18 8.4 19.8 12 19.8 C 15.6 19.8 18.5 18 18.5 15.8 V 12.3 L 12 15.2 L 5.5 12.3 Z" />
+            </g>
+          </g>
+        </g>
+        <g transform="translate(64, 22)">
+          <text x="0" y="8" fill="#6b7280" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" letter-spacing="1.5px">GOOGLE SCHOLAR</text>
+          <text x="0" y="28" fill="#0f0f0f" font-family="'SF Mono', 'Courier New', Courier, monospace, Arial" font-size="12" font-weight="700" letter-spacing="0.5px">_I1GioMAAAAJ</text>
+        </g>
       </g>
+
     </g>
+
   </g>
 </svg>
