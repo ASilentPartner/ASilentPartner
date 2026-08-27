@@ -1,110 +1,69 @@
-<svg fill="none" viewBox="0 0 850 180" width="850" height="180" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .container {
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: space-between;
-          height: 178px;
-          padding: 0 48px;
-          box-sizing: border-box;
-          background: #fafafa;
-          border: 1px solid #e5e5e5;
-          border-radius: 12px;
-        }
+<svg viewBox="0 0 850 180" width="850" height="180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect x="1" y="1" width="848" height="178" rx="12" fill="#fafafa" stroke="#e5e5e5" stroke-width="1.5" />
 
-        .badges-grid {
-          display: flex;
-          flex-direction: column;
-          gap: 8px;
-        }
+  <!-- ROW 1 (A, S, P, GitHub) -->
+  <!-- A -->
+  <g transform="translate(48, 48)">
+    <circle cx="18" cy="18" r="18" fill="#171717" />
+    <text x="18" y="23" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">A</text>
+  </g>
 
-        .badges-row {
-          display: flex;
-          gap: 8px;
-        }
+  <!-- S -->
+  <g transform="translate(92, 48)">
+    <circle cx="18" cy="18" r="18" fill="#171717" />
+    <text x="18" y="23" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">S</text>
+  </g>
 
-        .badge {
-          width: 36px;
-          height: 36px;
-          border-radius: 50%;
-          background: #171717;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          color: #ffffff;
-          font-size: 14px;
-          font-weight: 700;
-          user-select: none;
-        }
+  <!-- P -->
+  <g transform="translate(136, 48)">
+    <circle cx="18" cy="18" r="18" fill="#171717" />
+    <text x="18" y="23" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">P</text>
+  </g>
 
-        .badge svg {
-          width: 17px;
-          height: 17px;
-          fill: #ffffff;
-        }
+  <!-- GitHub Mark -->
+  <g transform="translate(180, 48)">
+    <circle cx="18" cy="18" r="18" fill="#171717" />
+    <path fill="#ffffff" transform="translate(9.5, 9.5) scale(0.708)" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+  </g>
 
-        .brand-section {
-          display: flex;
-          flex-direction: column;
-          align-items: flex-end;
-          gap: 8px;
-        }
+  <!-- ROW 2 (C, O, D, E) -->
+  <!-- C -->
+  <g transform="translate(48, 92)">
+    <circle cx="18" cy="18" r="18" fill="#171717" />
+    <text x="18" y="23" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">C</text>
+  </g>
 
-        .title {
-          font-size: 24px;
-          font-weight: 800;
-          letter-spacing: 0.08em;
-          color: #171717;
-        }
+  <!-- O -->
+  <g transform="translate(92, 92)">
+    <circle cx="18" cy="18" r="18" fill="#171717" />
+    <text x="18" y="23" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">O</text>
+  </g>
 
-        .title span {
-          color: #a3a3a3;
-          font-weight: 400;
-        }
+  <!-- D -->
+  <g transform="translate(136, 92)">
+    <circle cx="18" cy="18" r="18" fill="#171717" />
+    <text x="18" y="23" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">D</text>
+  </g>
 
-        .email-link {
-          font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-          font-size: 13px;
-          color: #525252;
-          background: #f5f5f5;
-          border: 1px solid #e5e5e5;
-          padding: 4px 10px;
-          border-radius: 6px;
-          text-decoration: none;
-        }
-      </style>
+  <!-- E -->
+  <g transform="translate(180, 92)">
+    <circle cx="18" cy="18" r="18" fill="#171717" />
+    <text x="18" y="23" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">E</text>
+  </g>
 
-      <div class="container">
-        <!-- Minimal Flat Badges -->
-        <div class="badges-grid">
-          <div class="badges-row">
-            <div class="badge">A</div>
-            <div class="badge">S</div>
-            <div class="badge">P</div>
-            <div class="badge">
-              <svg viewBox="0 0 24 24">
-                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
-              </svg>
-            </div>
-          </div>
-          <div class="badges-row">
-            <div class="badge">C</div>
-            <div class="badge">O</div>
-            <div class="badge">D</div>
-            <div class="badge">E</div>
-          </div>
-        </div>
+  <!-- RIGHT SECTION: TITLE & EMAIL -->
+  <g transform="translate(802, 0)">
+    <!-- Brand Title: ASP // CODE -->
+    <text x="0" y="80" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" letter-spacing="0.08em" fill="#171717">
+      ASP <tspan fill="#a3a3a3" font-weight="400">//</tspan> CODE
+    </text>
 
-        <!-- Identity & Email -->
-        <div class="brand-section">
-          <div class="title">ASP <span>//</span> CODE</div>
-          <div class="email-link">asp@eventdeparture.com</div>
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+    <!-- Email Badge Box -->
+    <rect x="-205" y="98" width="205" height="28" rx="6" fill="#f5f5f5" stroke="#e5e5e5" stroke-width="1" />
+    <!-- Email Text -->
+    <text x="-102.5" y="117" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="500" fill="#525252">
+      asp@eventdeparture.com
+    </text>
+  </g>
 </svg>
